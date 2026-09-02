@@ -10,32 +10,51 @@
     <title>Meine Seite</title>
 </head>
 <body>
-    <nav class="navigation">
+    <header>
+        <nav class="navigation">
         <a href="#">Start</a>
         <a href="#">Über mich</a>
         <a href="#">Interessen</a> 
-    </nav>
-    <h1>David</h1>    
-    <div class ="content">
-        <div class="ueber-mich">
-            <p>Ich lerne gerade HTML. Die KI "Claude" ist mein Lehrer.</p>
+        </nav>
+    </header>
+
+    <main>
+         <h1>David</h1>    
+        <div class ="content">
+            <div class="ueber-mich">
+                <p>Ich lerne gerade HTML. Die KI "Claude" ist mein Lehrer.</p>
+            </div>
+            <div class="interessen">
+                <div class="Programmieren">Programmieren</div>
+                <div class="Kraftsport">Kraftsport</div>
+                <div class="Wrestling-schauen">Wrestling schauen</div>
+                <p>Um Wrestling zu schauen, klicke auf diesen Link hier: <a href="https://www.youtube.com/">Youtube</a>.</p> 
+            </div>
         </div>
-        <div class="interessen">
-            <div class="Programmieren">Programmieren</div>
-            <div class="Kraftsport">Kraftsport</div>
-            <div class="Wrestling-schauen">Wrestling schauen</div>
-            <p>Um Wrestling zu schauen, klicke auf diesen Link hier: <a href="https://www.youtube.com/">Youtube</a>.</p> 
-        </div>
-    </div>
-    <div class="lernen">
+    <section>
+        <div class="lernen">
         Darum lerne ich Webentwicklung:
+        </div>
+        <div class="warum">
+            <div class="karte">Ich will Kundenprojekte umsetzen können</div>
+            <div class="karte">Ich mag es Dinge zu bauen</div>
+            <div class="karte">ich will KI sinnvoll einsetzen können</div>
+            <div class="karte">Ich will unabhängig arbeiten können</div>
+        </div>
+    </section>
+    </main>
+    
+    <aside>
+        <div class="button">
+        <button id = "button">Sag Hallo</button>
     </div>
-    <div class="warum">
-        <div class="karte">Ich will Kundenprojekte umsetzen können</div>
-        <div class="karte">Ich mag es Dinge zu bauen</div>
-        <div class="karte">ich will KI sinnvoll einsetzen können</div>
-        <div class="karte">Ich will unabhängig arbeiten können</div>
-    </div>
+    <div class="ausgabe"><p id="ausgabe"></p></div>
+    </aside>
+
+    <footer>
+        <p>&copy; 2026</p>
+    </footer>
+
     <script src="script.js"></script>
 </body>
 </html>

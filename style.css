@@ -4,7 +4,7 @@
 
 :root {
   --text-color: #2f2f2f;
-  --primary-color: lightblue;
+  --primary-color: black;
   --padding: 16px;
   --margin: 12px;
   --border: 1px solid #ccc
@@ -66,6 +66,22 @@ p {
   .content {
     flex-direction: row;
   }
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 32px
+}
+
+.ausgabe {
+  margin: 64px
+}
+
+
+#button {
+  font-size: x-large
 }
 
 .navigation {

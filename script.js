@@ -53,4 +53,13 @@ const ueberschrift = document.querySelector("h1")
 ueberschrift.textContent = "David - Webentwickler in Ausbildung"
 
 const hervorgehobeneKarte = document.querySelector(".karte")
-hervorgehobeneKarte.classList.add("hervorgehoben")
+
+
+const button = document.querySelector("#button")
+const ausgabe = document.querySelector("#ausgabe")
+
+button.addEventListener("click", () => {
+    ausgabe.textContent = "Hallooooo"
+    
+    hervorgehobeneKarte.classList.toggle("hervorgehoben")
+})
